@@ -7,7 +7,7 @@ class Solution {
             return false;
         }
         else{
-        while(org>0){
+        for(int i=0 ; org>0 ; i++){
             int digit = org%10;
             rev =  rev*10 + digit;
             org = org/10;
