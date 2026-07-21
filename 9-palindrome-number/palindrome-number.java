@@ -6,7 +6,6 @@ class Solution {
         if(org<0){
             return false;
         }
-        else{
         for(int i=0 ; org>0 ; i++){
             int digit = org%10;
             rev =  rev*10 + digit;
@@ -18,6 +17,6 @@ class Solution {
         }else{
             return false;
         }
-        }
+
     }
 }
