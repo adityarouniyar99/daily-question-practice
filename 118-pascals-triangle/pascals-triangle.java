@@ -8,10 +8,11 @@ class Solution {
 
             row.add(1);
 
-            for(int j=1;j<i;j++){
+            int j = 1;
+            while(j<i){
                 int value = result.get(i-1).get(j-1) + 
                             result.get(i-1).get(j);
-
+                j++;
                 row.add(value);
             }
 
